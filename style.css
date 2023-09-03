@@ -273,11 +273,11 @@ header{
     margin-right:auto;
     padding-bottom:35px;
 }
-.inter>td{
+.inter td{
     text-align: left;
     width:50%;
 }
-.inter>tr{
+.inter tr{
     height:25px;
 }
 
