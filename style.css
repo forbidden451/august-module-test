@@ -78,6 +78,7 @@ header{
     max-width:90%;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .lef>p{
@@ -91,15 +92,32 @@ header{
 }
 
 
-
+.lef{
+    position: relative;
+    z-index:10;
+}
 .left-next>p{
     font-size:18px;
     color:grey;
 }
 
 .tables{
-    padding-top:40px;
     display:flex;
+}
+
+.backgrnd{
+    margin-top:50px;
+    padding:20px;
+    background-color: white;
+    
+    z-index:3;
+}
+
+.image-arrow{
+    position:absolute;
+    right:-60px;
+    top:180px;
+    z-index: 0;
 }
 
 .right{
