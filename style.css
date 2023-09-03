@@ -69,7 +69,7 @@ header{
 .hero-section{
     background-color: rgb(253, 243, 254);
     width:100%;
-    height:800px;
+    height:620px;
 }
 
 .elements{
@@ -96,18 +96,85 @@ header{
 .right-elem{
     
     width:80%;
+    padding-top:20px;
     text-align: center;
     margin-right:auto;
     margin-left:auto;
     border: #2F80ED 1px solid;
 }
 
-.right>p{
-    border:#2F80ED 1px solid;
+.right-elem>p{
     text-align: center;
     font-size:28px;
+    letter-spacing: 0.8px;
     font-style:italic;
+    line-height: 150%;
 }
+
+.elem-next{
+    width:80%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom:50px;
+
+}
+.elem-next>p{
+    font-size:16px;
+    color: grey;
+    letter-spacing: -0.5px;
+    line-height: 150%;
+}
+
+.input-box-1{
+    background-color: #FAFAFA;
+    height:52px;
+    display: flex;
+}
+
+.input-box-1>img{
+    padding-left:10px;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+
+.input-box-1>p{
+    margin-top:auto;
+    margin-bottom: auto;
+    padding-left:20px;
+}
+
+.input-box-2{
+    margin-top:10px;
+    background-color: #FAFAFA;
+    height:52px;
+    display: flex;
+}
+
+.input-box-2>img{
+    padding-left:10px;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+
+.input-box-2>p{
+    margin-top:auto;
+    margin-bottom: auto;
+    padding-left:20px;
+    color: grey;
+}
+
+.apply{
+    padding-top:50px;
+}
+
+.apply>button{
+    background-color: linear-gradient(to right,#1874ed,rgb(119, 10, 245));
+    padding:30px;
+}
+
+
+
+
 
 
 
